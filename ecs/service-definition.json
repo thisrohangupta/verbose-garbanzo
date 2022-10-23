@@ -1,0 +1,20 @@
+{
+    "launchType": "FARGATE",
+    "serviceName": "myapp",
+    "desiredCount": 1,
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "securityGroups": [
+                "<Security Group Id>"
+            ],
+            "subnets": [
+                "<Subnet Id>"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "deploymentConfiguration": {
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 0
+    }
+}
