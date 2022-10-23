@@ -10,19 +10,8 @@ The intention of this training is to help Harness teammates get familiar with Ku
 Kubernetes is an open-source, highly scalable, portable, and extensive container orchestration system. It was originally based on Google’s Borg project and has been rewritten in Go and has been open-sourced to the community. It has been widely adopted and is gaining traction in the enterprise space.
 However, Kubernetes is not a PaaS (Platform as a Service). In the field, many developers do make that confusion. Kubernetes is a tool that empowers developers to build their own custom PaaS for their specific use cases.
 
-This link from the Kubernetes website should cover in more depth what Kubernetes is:
-What Is Kubernetes
 
-Tools
-```
-Kubectl
-
-Minikube, for local testing
-
-Docker For Mac
-```
-
-Kubernetes Key Concepts
+### Kubernetes Key Concepts
 
 In Kubernetes, we have various concepts, such as pods, service, deployment, ingress, etc. These concepts can be complicated and confusing when you start mixing them all together. In this section, we will break it down to the core ones that we encounter in the field with our customers.
 When you utilize the Kubernetes command line,
@@ -145,11 +134,15 @@ In order to organize the Kubernetes cluster for various team uses, namespaces ar
 For Further Reading: [What is a Namespace?](http://kubernetesbyexample.com/ns/)
 
 #### Other Resources
-[Kubernetes Core Concepts, Medium Blog](https://medium.com/yld-blog/kubernetes-core-concepts-324ea7028c29)
-[Kubernetes Core Concepts from Kubernetes](https://kubernetes.io/docs/concepts/)
-[Harness Overview of K8s Deployments](https://docs.harness.io/article/pc6qglyp5h-kubernetes-deployments-overview)
-[DigitalOcean's Blog on Kubernetes](https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes)
-[Service Mesh Reading](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
+- [Kubernetes Core Concepts, Medium Blog](https://medium.com/yld-blog/kubernetes-core-concepts-324ea7028c29)
+
+- [Kubernetes Core Concepts from Kubernetes](https://kubernetes.io/docs/concepts/)
+
+- [Harness Overview of K8s Deployments](https://docs.harness.io/article/pc6qglyp5h-kubernetes-deployments-overview)
+
+- [DigitalOcean's Blog on Kubernetes](https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes)
+
+- [Service Mesh Reading](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh)
 
 #### Tutorials on Kubernetes
 [K8s Tutorial, Configuring, running and managing](https://www.tutorialspoint.com/kubernetes/index.htm)
