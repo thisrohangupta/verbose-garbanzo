@@ -1,4 +1,4 @@
-# Rolling Deployment Kubernetes Lab
+# Canary Deployment Kubernetes Lab
 
 ### Introduction
 
