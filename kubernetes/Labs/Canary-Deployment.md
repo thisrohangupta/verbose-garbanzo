@@ -35,7 +35,7 @@
 1. What does Harness do in the Canary Deployment and Canary Delete Steps of the deployment? How is the application being orchestrated?
 2. Can you find the taskID for the Canary Deployment Step?
 3. What were the step outputs of the canary depeloyment step? 
-4. 
+
 
 
 
